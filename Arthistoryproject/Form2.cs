@@ -76,7 +76,7 @@ namespace Arthistoryproject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
+            Home f1 = new Home();
 
             // แสดงหน้า Form1
             f1.Show();
