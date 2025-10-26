@@ -34,7 +34,13 @@ namespace Arthistoryproject
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            Form3 f3 = new Form3();
 
+            // แสดง Form3
+            f3.Show();
+
+            // ซ่อน Form2 (หรือใช้ Close() ถ้าไม่ต้องกลับมา)
+            this.Hide();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -77,6 +83,11 @@ namespace Arthistoryproject
 
             // ปิดหน้า Form2 ปัจจุบัน
             this.Close();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            
         }
     }
 }
