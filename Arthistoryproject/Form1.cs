@@ -37,5 +37,11 @@ namespace Arthistoryproject
             // ซ่อนฟอร์มนี้ (Form1)
             this.Hide();
         }
+      
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
